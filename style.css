@@ -79,7 +79,7 @@ input[type="text"]:focus {
 
 .task {
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-row {
@@ -144,12 +144,12 @@ input[type="text"]:focus {
 
 /* Edit Task */
 .task-item .task {
-  display: none
+  display: none;
 }
 
 .task-item.edit-mode .task {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .task-item.edit-mode .task-title {
